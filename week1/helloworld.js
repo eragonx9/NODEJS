@@ -1,5 +1,5 @@
 var http=require('http')
-const port=3000
+const port=3001
 const fs=require('fs')
 const Server= http.createServer(function(req,res){
     res.writeHead(200,{'Content-Type':'text/html'});
